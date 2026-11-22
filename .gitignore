@@ -1,8 +1,17 @@
 
-.venv/
+# Python
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+.venv/
+
+# Environment
 .env
-data/raw/
-data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/
+
+# Keep model files and screenshots
+# Model files are required by the application
