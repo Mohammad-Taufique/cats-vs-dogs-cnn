@@ -23,8 +23,11 @@ This project uses a CNN model to identify whether an uploaded image contains a c
 - Image prediction through Streamlit web application
 
 ## Model Performance
-- Dataset: 25,000 images
-- Test accuracy: Approximately 82.2%
+The CNN model was evaluated on 3,750 test images.
+
+- Test Accuracy: 82%
+- Cat F1-Score: 0.83
+- Dog F1-Score: 0.81
 
 ## Project Structure
 - app.py
@@ -36,6 +39,12 @@ This project uses a CNN model to identify whether an uploaded image contains a c
 - model/
 - screenshots/
 - requirements.txt
+
+### Evaluation Visualizations
+
+- Training Accuracy: screenshots/accuracy.png
+- Confusion Matrix: screenshots/confusion_matrix.png
+- Classification Report: screenshots/classification_report.txt  
 
 ## Installation
 
